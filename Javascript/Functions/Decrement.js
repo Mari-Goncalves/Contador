@@ -1,0 +1,3 @@
+function decrement(){
+    counterNumber.innerHTML --
+}
