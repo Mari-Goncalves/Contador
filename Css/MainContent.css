@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-#conter-button{
+.counter-button{
     width: 150px;
     height: 40px;
     background-color: #1616aa;
@@ -34,7 +34,7 @@
     border: none    ;
 }
 
-#conter-button:hover{
+.counter-button:hover{
     border: 2px solid #ffffff;
     background-color: #1e1ec2;
     cursor: pointer;
