@@ -1,4 +1,4 @@
-import { getElements } from "./getElements"
+import { getElements } from "./getElements.js"
 
 function increment(){
 
@@ -7,5 +7,4 @@ function increment(){
     counterNumber.innerHTML ++
 }
 
-incrementButton.onclick = ('click', increment)
-
+export {increment}

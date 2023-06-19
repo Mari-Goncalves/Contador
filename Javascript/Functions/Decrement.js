@@ -1,4 +1,4 @@
-import { getElements } from "./getElements"
+import { getElements } from "./getElements.js"
 
 function decrement(){
 
@@ -7,6 +7,4 @@ function decrement(){
     counterNumber.innerHTML --
 }
 
-let {decrementButton} = getElements()
-
-decrementButton.addEventListener('click', decrement)
+export {decrement}
