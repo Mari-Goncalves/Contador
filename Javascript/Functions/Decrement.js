@@ -1,4 +1,4 @@
-import { getElements } from "./GetElements.js"
+import { getElements } from "./getElements.js"
 
 function decrement(){
 
